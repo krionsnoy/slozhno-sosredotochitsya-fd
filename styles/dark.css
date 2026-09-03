@@ -16,6 +16,9 @@
   --decor-text-color: #000028;
   --header-title-color: #db00ff;
   --bg-image: url('../images/cover-image-dark.png');
+  --button-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --corner-color: #ff0070;
 }
 
 .theme-dark .header__rec {

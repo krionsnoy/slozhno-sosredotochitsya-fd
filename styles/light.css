@@ -4,11 +4,11 @@
   переключая тему
 */
 
+:root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  :root.theme-light {
   --bg-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #ff8dcb;
@@ -16,6 +16,9 @@
   --decor-text-color: #353430;
   --header-title-color: #ffc2e6;
   --bg-image: url('../images/cover-image-light.png');
+  --button-color: #353430;
+  --button-hover-color: rgba(53, 52, 48, 0.4);
+  --corner-color: #353430;
 }
 
 .theme-light .header__rec {
@@ -31,6 +34,9 @@
     --decor-text-color: #353430;
     --header-title-color: #ffc2e6;
     --bg-image: url('../images/cover-image-light.png');
+    --button-color: #353430;
+    --button-hover-color: rgba(53, 52, 48, 0.4);
+    --corner-color: #353430;
   }
 
   .header__rec {

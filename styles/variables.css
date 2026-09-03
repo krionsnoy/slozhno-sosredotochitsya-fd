@@ -11,7 +11,9 @@
   --header-title-color: #db00ff;
   --bg-image: url('../images/cover-image-dark.png');
   --font-main: 'IBM Plex mono', monospace;
-  
   --title-shadow: 4px 4px 0 var(--accent-color);
   --header-padding: 10px;
+  --button-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --corner-color: #ff0070;
 }
